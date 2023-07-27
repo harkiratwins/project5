@@ -145,8 +145,8 @@
   background: #f8f8f8ad;
 }
 .fp-container .fp-loader {
-  top: 30%;
-  left: 48%;
+  top: 50%;
+  left: 40%;
   z-index: 1000;
   position: absolute;
 }
