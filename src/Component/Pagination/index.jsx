@@ -39,16 +39,16 @@ const PaginationComponent = ({
         <Pagination>
             <ul className="pagination">
              <li className='page-item' >
-            <a href='#!' className='page-link'  onClick={() => onPageChange(currentPage - 1)}
-                disabled={currentPage === 1} >Prev</a>
+            <button style={{border:'0px'}} className='h-100 ' onClick={() => onPageChange(currentPage - 1)}
+                disabled={currentPage === 1} >Prev</button>
 
           </li>
             
             {paginationItems}
            
             <li className='page-item'>
-            <a href='#!' className='page-link'  onClick={() => onPageChange(currentPage + 1)}
-                disabled={currentPage === totalPages}>Next</a>
+            <button style={{border:'0px', }} className='h-100  paginate'  onClick={() => onPageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}>Next</button>
 
           </li>
           </ul>
